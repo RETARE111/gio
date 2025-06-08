@@ -1,0 +1,127 @@
+/* estilos.css - Por Estrella Rojas */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header__subtitle {
+  font-size: 16px;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.intro__title,
+.bem__title,
+.camelCase__title,
+.comparison__title,
+.practica__title {
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.intro__text,
+.bem__description,
+.camelCase__description,
+.comparison__text {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.bem__advantages,
+.camelCase__uses,
+.bem__examples,
+.camelCase__examples {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.comparison__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.comparison__table th,
+.comparison__table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.card {
+  background-color: #e0f7fa;
+  border: 1px solid #b2ebf2;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.card--highlighted {
+  background-color: #b2ebf2;
+}
+
+.card__title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card__description {
+  font-size: 14px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button--primary {
+  background-color: #3498db;
+  color: white;
+}
+
+.button--secondary {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer__text,
+.footer__credits {
+  margin: 5px;
+  font-size: 14px;
+}
+
+.footer__credits a {
+  color: #f1c40f;
+  text-decoration: none;
+}

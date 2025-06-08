@@ -1,11 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEM y camelCase - Estrella Rojas</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    
+  <header class="header">
+    <h1 class="header__title">BEM y camelCase</h1>
+    <p class="header__subtitle">Aplicación en HTML y CSS - Por Estrella Rojas</p>
+  </header>
+
+  <main class="main-content">
+    <section class="intro">
+      <h2 class="intro__title">Introducción</h2>
+      <p class="intro__text">Esta página muestra la investigación y ejemplos prácticos sobre las metodologías de nombrado BEM y camelCase utilizando HTML y CSS.</p>
+    </section>
+
+    <section class="bem">
+      <h2 class="bem__title">¿Qué es BEM?</h2>
+      <p class="bem__description">BEM (Block Element Modifier) es una metodología que ayuda a escribir código CSS más claro y estructurado.</p>
+      <h3 class="bem__subtitle">Ventajas de BEM</h3>
+      <ol class="bem__advantages">
+        <li>Mejor organización del código</li>
+        <li>Evita conflictos de clases</li>
+        <li>Facilita el mantenimiento</li>
+      </ol>
+      <h3 class="bem__subtitle">Ejemplos de clases BEM</h3>
+      <ul class="bem__examples">
+        <li>.menu</li>
+        <li>.menu__item</li>
+        <li>.menu__item--activo</li>
+      </ul>
+    </section>
+
+    <section class="camelCase">
+      <h2 class="camelCase__title">¿Qué es camelCase?</h2>
+      <p class="camelCase__description">camelCase es un estilo de escritura donde la primera palabra va en minúscula y las siguientes empiezan con mayúscula. Se usa en programación.</p>
+      <h3 class="camelCase__subtitle">¿Dónde se usa camelCase?</h3>
+      <ol class="camelCase__uses">
+        <li>Variables en JavaScript</li>
+        <li>Nombres de funciones</li>
+        <li>Propiedades en objetos</li>
+      </ol>
+      <h3 class="camelCase__subtitle">Ejemplos de camelCase</h3>
+      <ul class="camelCase__examples">
+        <li>nombreCompleto</li>
+        <li>calcularEdad()</li>
+        <li>miVariable</li>
+      </ul>
+    </section>
+
+    <section class="comparison">
+      <h2 class="comparison__title">Comparación entre BEM y camelCase</h2>
+      <table class="comparison__table">
+        <thead>
+          <tr>
+            <th>Aspecto</th>
+            <th>BEM</th>
+            <th>camelCase</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Uso</td>
+            <td>Clases CSS</td>
+            <td>Variables y funciones</td>
+          </tr>
+          <tr>
+            <td>Ejemplo</td>
+            <td>boton__icono--grande</td>
+            <td>botonGrande</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="comparison__text">Usamos BEM para nombrar clases en CSS y camelCase para código JavaScript.</p>
+    </section>
+
+    <section class="practica">
+      <h2 class="practica__title">Aplicación práctica con BEM</h2>
+      <div class="card card--highlighted">
+        <h3 class="card__title">Tarjeta destacada</h3>
+        <p class="card__description">Este bloque usa BEM para estructurar sus clases.</p>
+      </div>
+      <div class="button button--primary">Botón Azul</div>
+      <div class="button button--secondary">Botón Gris</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">Hecho por <strong>Estrella Rojas</strong></p>
+    <p class="footer__credits">Fuentes: <a href="https://en.bem.info/methodology/" target="_blank">BEM</a> | <a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></p>
+  </footer>
 </body>
 </html>
